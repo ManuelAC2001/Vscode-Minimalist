@@ -1,0 +1,119 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "material-icon-theme.activeIconPack": "angular",
+    "material-icon-theme.folders.color": "#fdd835",
+    "haskell.manageHLS": "GHCup",
+    "codesnap.containerPadding": "1.5em",
+    "workbench.startupEditor": "none",
+    "editor.cursorBlinking": "expand",
+
+    // "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Roboto Mono",
+
+    "editor.fontLigatures": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.layoutControl.enabled": false,
+    "window.restoreFullscreen": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontWeight": "100",
+    "glassit.alpha": 250,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.class": "default"
+    },
+    "workbench.iconTheme": "file-icons-colourless",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "emmet.preferences": {
+        
+    },
+    "editor.renderControlCharacters": false,
+    "breadcrumbs.enabled": false,
+
+    "editor.fontSize": 13,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+
+    // Minimal styles
+    "editor.minimap.enabled": false,            // removes minimap
+    "editor.renderWhitespace": "none",          // removes whitespace chars
+    "editor.renderLineHighlight": "none",       // removes line highlight
+    "editor.overviewRulerBorder": false,        // removes border from overview ruler (located on the right, same position as the scrollbar)
+    "editor.hideCursorInOverviewRuler": true,   // hides cursor mark in the overview ruler
+    "editor.folding": true,                    // removes the folding feature
+    "editor.glyphMargin": true,                // removes the space used mainly for debugging indicators
+    "editor.lineNumbers": "off",
+    
+    "editor.occurrencesHighlight": false,       // removes highlights occurrences (still works when you select a word)
+    "editor.matchBrackets": "never",            // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
+    "explorer.openEditors.visible": 0,          // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+    "workbench.editor.showIcons": false,        // removes icon from opened files in tabs
+    "workbench.editor.tabCloseButton": "off",   // removes cross icon from tabs
+    "workbench.statusBar.visible": false,       // removes the status bar
+
+
+    "workbench.colorCustomizations": {          // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+        "editorCursor.background": "#0d1117",
+        "editorCursor.foreground": "#b3c7ff",
+        "editorGroup.border": "#00000000",
+        "editorPane.background": "#0d1117",
+        "editorGroup.emptyBackground": "#0d1117",
+        
+        "tab.activeBorder": "#ff000000",         // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+        "tab.activeBorderTop": "#ff000000",
+    },
+    
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "punctuation",
+            "settings": {
+              "foreground": "#8388aa"
+            }
+          }
+        ]
+      },
+
+      "customizeUI.stylesheet": {
+        ".decorationsOverviewRuler": "opacity: 0 !important;",
+        ".scroll-decoration": "opacity: 0 !important;",
+        ".editor-instance": "margin-top: 4rem !important;",
+        ".margin": "transform: translateX(-2rem) !important;",
+        ".title.show-file-icons": "display: none !important;",
+      },
+
+    "editor.bracketPairColorization.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.selectionHighlight": false,
+
+    // "editor.guides.indentation": false,
+    
+
+    "window.menuBarVisibility": "toggle",
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "workbench.editor.showTabs": false,
+    "workbench.editor.labelFormat": "short",
+    "editor.cursorStyle": "line",
+    "workbench.productIconTheme": "developer-icons",
+
+    // end of minimal styles
+}
