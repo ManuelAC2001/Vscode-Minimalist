@@ -12,30 +12,28 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "material-icon-theme.activeIconPack": "angular",
-    "material-icon-theme.folders.color": "#fdd835",
+    "material-icon-theme.folders.color": "#90a4ae",
     "haskell.manageHLS": "GHCup",
     "codesnap.containerPadding": "1.5em",
     "workbench.startupEditor": "none",
-    "editor.cursorBlinking": "expand",
 
     // "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
     "editor.fontFamily": "Roboto Mono",
 
+
     "editor.fontLigatures": true,
     "editor.cursorSmoothCaretAnimation": "on",
-    "workbench.layoutControl.enabled": false,
-    "window.restoreFullscreen": true,
     "tabnine.experimentalAutoImports": true,
     "editor.fontWeight": "100",
-    "glassit.alpha": 250,
+    "glassit.alpha": 235,
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml"
     },
     "files.autoSave": "afterDelay",
     "workbench.editorAssociations": {
-        "*.class": "default"
+      "*.class": "default",
+      "*.xlsx": "gc-excelviewer-excel-editor"
     },
-    "workbench.iconTheme": "file-icons-colourless",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "emmet.preferences": {
         
@@ -47,8 +45,6 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "GitHub Dark Default",
 
     // Minimal styles
     "editor.minimap.enabled": false,            // removes minimap
@@ -62,10 +58,9 @@
     
     "editor.occurrencesHighlight": false,       // removes highlights occurrences (still works when you select a word)
     "editor.matchBrackets": "never",            // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
-    "explorer.openEditors.visible": 0,          // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+    // "explorer.openEditors.visible": 0,          // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
     "workbench.editor.showIcons": false,        // removes icon from opened files in tabs
-    "workbench.editor.tabCloseButton": "off",   // removes cross icon from tabs
-    "workbench.statusBar.visible": false,       // removes the status bar
+    "workbench.editor.tabCloseButton": "off", // removes the status bar
 
 
     "workbench.colorCustomizations": {          // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference
@@ -95,25 +90,38 @@
         ".scroll-decoration": "opacity: 0 !important;",
         ".editor-instance": "margin-top: 4rem !important;",
         ".margin": "transform: translateX(-2rem) !important;",
+        ".tabs-and-actions-container": "display: none !important;",
         ".title.show-file-icons": "display: none !important;",
       },
 
-    "editor.bracketPairColorization.enabled": false,
+    // "editor.bracketPairColorization.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "editor.selectionHighlight": false,
-
-    // "editor.guides.indentation": false,
-    
-
-    "window.menuBarVisibility": "toggle",
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "zenMode.fullScreen": false,
     "zenMode.hideLineNumbers": false,
-    "workbench.editor.showTabs": false,
     "workbench.editor.labelFormat": "short",
-    "editor.cursorStyle": "line",
-    "workbench.productIconTheme": "developer-icons",
-
+    "files.associations": {
+      "*.pl": "prolog"
+    },
+    "workbench.iconTheme": "icons",
+    // "prolog.executablePath": "C:/Program Files/swipl/bin",
+    "workbench.activityBar.visible": false,
+    "symbols.hidesExplorerArrows": false,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "expand",
+    "workbench.colorTheme": "Darcula Amoled Theme",
+    
+    /* NEW CONFIGURATIONS  */
+    "workbench.editor.showTabs": false,
+    "window.menuBarVisibility": "compact",
+    "window.restoreFullscreen": true,
+    "window.title": "${dirty}${separator}${activeEditorShort}${separator}${activeFolderShort}${separator}👽👾",
+    "window.titleSeparator": " - ",
+    "workbench.layoutControl.type": "menu",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "window.zoomLevel": 0.2,
     // end of minimal styles
 }
