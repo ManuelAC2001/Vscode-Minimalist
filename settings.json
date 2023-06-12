@@ -11,8 +11,6 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "material-icon-theme.activeIconPack": "angular",
-    "material-icon-theme.folders.color": "#90a4ae",
     "haskell.manageHLS": "GHCup",
     "codesnap.containerPadding": "1.5em",
     "workbench.startupEditor": "none",
@@ -58,7 +56,6 @@
     
     "editor.occurrencesHighlight": false,       // removes highlights occurrences (still works when you select a word)
     "editor.matchBrackets": "never",            // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
-    // "explorer.openEditors.visible": 0,          // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
     "workbench.editor.showIcons": false,        // removes icon from opened files in tabs
     "workbench.editor.tabCloseButton": "off", // removes the status bar
 
@@ -111,7 +108,7 @@
     "symbols.hidesExplorerArrows": false,
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "expand",
-    "workbench.colorTheme": "Darcula Amoled Theme",
+    "workbench.colorTheme": "Tokyo Night nv",
     
     /* NEW CONFIGURATIONS  */
     "workbench.editor.showTabs": false,
