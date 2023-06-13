@@ -7,7 +7,7 @@
 }
 
 .editor-instance {
-  margin-top: .8rem !important;
+  margin-top: .2rem !important;
 }
 
 .tabs-and-actions-container {
@@ -15,5 +15,9 @@
 }
 
 .monaco-workbench .part > .composite.title {
+  visibility: hidden !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title {
   visibility: hidden !important;
 }
