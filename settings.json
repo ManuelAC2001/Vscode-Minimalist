@@ -16,7 +16,8 @@
     "workbench.startupEditor": "none",
 
     // "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
-    "editor.fontFamily": "Roboto Mono",
+    // "editor.fontFamily": "Roboto Mono",
+    "editor.fontFamily": "Lilex",
 
 
     "editor.fontLigatures": true,
@@ -108,7 +109,7 @@
     "symbols.hidesExplorerArrows": false,
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "expand",
-    "workbench.colorTheme": "Tokyo Night nv",
+    "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★★",
     
     /* NEW CONFIGURATIONS  */
     "workbench.editor.showTabs": false,
