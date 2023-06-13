@@ -24,7 +24,7 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "tabnine.experimentalAutoImports": true,
     "editor.fontWeight": "100",
-    "glassit.alpha": 235,
+    "glassit.alpha": 255,
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml"
     },
@@ -109,7 +109,7 @@
     "symbols.hidesExplorerArrows": false,
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "expand",
-    "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★★",
+    "workbench.colorTheme": "Gruvbox Glass",
     
     /* NEW CONFIGURATIONS  */
     "workbench.editor.showTabs": false,
