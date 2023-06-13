@@ -1,0 +1,19 @@
+.decorationsOverviewRuler {
+  opacity: 0 !important;
+}
+
+.scroll-decoration {
+  opacity: 0 !important;
+}
+
+.editor-instance {
+  margin-top: .8rem !important;
+}
+
+.tabs-and-actions-container {
+  display: none !important;
+}
+
+.monaco-workbench .part > .composite.title {
+  visibility: hidden !important;
+}
