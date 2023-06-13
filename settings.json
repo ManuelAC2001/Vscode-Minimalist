@@ -21,7 +21,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "tabnine.experimentalAutoImports": true,
   "editor.fontWeight": "100",
-  "glassit.alpha": 255,
+  "glassit.alpha": 235,
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
@@ -38,8 +38,9 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "editor.tabSize": 2,
+
   // Minimal styles
+  "editor.tabSize": 2,
   "editor.minimap.enabled": false, // removes minimap
   "editor.renderWhitespace": "none", // removes whitespace chars
   "editor.renderLineHighlight": "none", // removes line highlight
@@ -47,11 +48,14 @@
   "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
   "editor.folding": true, // removes the folding feature
   "editor.glyphMargin": true, // removes the space used mainly for debugging indicators
-  "editor.lineNumbers": "off",
+
+  "editor.lineNumbers": "interval",
+  
   "editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
   "editor.matchBrackets": "never", // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
   "workbench.editor.showIcons": false, // removes icon from opened files in tabs
   "workbench.editor.tabCloseButton": "off", // removes the status bar
+
   "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     "editorCursor.background": "#0d1117",
     "editorCursor.foreground": "#b3c7ff",
@@ -60,7 +64,9 @@
     "editorGroup.emptyBackground": "#0d1117",
     "tab.activeBorder": "#ff000000", // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
     "tab.activeBorderTop": "#ff000000",
+    "editorLineNumber.foreground": "#00000000",
   },
+  
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -71,6 +77,7 @@
       }
     ]
   },
+
   "customizeUI.stylesheet": {
     ".decorationsOverviewRuler": "opacity: 0 !important;",
     ".scroll-decoration": "opacity: 0 !important;",
@@ -79,6 +86,7 @@
     ".tabs-and-actions-container": "display: none !important;",
     ".title.show-file-icons": "display: none !important;",
   },
+
   // "editor.bracketPairColorization.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
@@ -91,15 +99,14 @@
     "*.pl": "prolog"
   },
   "workbench.iconTheme": "icons",
-  // "prolog.executablePath": "C:/Program Files/swipl/bin",
-  "workbench.activityBar.visible": false,
-  "symbols.hidesExplorerArrows": false,
+  
   "editor.cursorStyle": "block",
   "editor.cursorBlinking": "expand",
   "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★★",
+
   /* NEW CONFIGURATIONS  */
   "workbench.editor.showTabs": false,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "toggle",
   "window.restoreFullscreen": true,
   "window.title": "${dirty}${separator}${activeEditorShort}${separator}${activeFolderShort}${separator}👽👾",
   "window.titleSeparator": " - ",
@@ -107,5 +114,8 @@
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
   "window.zoomLevel": 0.2,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.enablePreview": false,
+  "symbols.hidesExplorerArrows": false,
   // end of minimal styles
 }
