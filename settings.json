@@ -1,125 +1,111 @@
 {
-    "security.workspace.trust.untrustedFiles": "open",
-    "explorer.confirmDelete": false,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "haskell.manageHLS": "GHCup",
-    "codesnap.containerPadding": "1.5em",
-    "workbench.startupEditor": "none",
-
-    // "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
-    // "editor.fontFamily": "Roboto Mono",
-    "editor.fontFamily": "Lilex",
-
-
-    "editor.fontLigatures": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "tabnine.experimentalAutoImports": true,
-    "editor.fontWeight": "100",
-    "glassit.alpha": 255,
-    "[xml]": {
-        "editor.defaultFormatter": "redhat.vscode-xml"
-    },
-    "files.autoSave": "afterDelay",
-    "workbench.editorAssociations": {
-      "*.class": "default",
-      "*.xlsx": "gc-excelviewer-excel-editor"
-    },
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "emmet.preferences": {
-        
-    },
-    "editor.renderControlCharacters": false,
-    "breadcrumbs.enabled": false,
-
-    "editor.fontSize": 13,
-    "[python]": {
-        "editor.formatOnType": true
-    },
-
-    // Minimal styles
-    "editor.minimap.enabled": false,            // removes minimap
-    "editor.renderWhitespace": "none",          // removes whitespace chars
-    "editor.renderLineHighlight": "none",       // removes line highlight
-    "editor.overviewRulerBorder": false,        // removes border from overview ruler (located on the right, same position as the scrollbar)
-    "editor.hideCursorInOverviewRuler": true,   // hides cursor mark in the overview ruler
-    "editor.folding": true,                    // removes the folding feature
-    "editor.glyphMargin": true,                // removes the space used mainly for debugging indicators
-    "editor.lineNumbers": "off",
-    
-    "editor.occurrencesHighlight": false,       // removes highlights occurrences (still works when you select a word)
-    "editor.matchBrackets": "never",            // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
-    "workbench.editor.showIcons": false,        // removes icon from opened files in tabs
-    "workbench.editor.tabCloseButton": "off", // removes the status bar
-
-
-    "workbench.colorCustomizations": {          // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference
-        "editorCursor.background": "#0d1117",
-        "editorCursor.foreground": "#b3c7ff",
-        "editorGroup.border": "#00000000",
-        "editorPane.background": "#0d1117",
-        "editorGroup.emptyBackground": "#0d1117",
-        
-        "tab.activeBorder": "#ff000000",         // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
-        "tab.activeBorderTop": "#ff000000",
-    },
-    
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-          {
-            "scope": "punctuation",
-            "settings": {
-              "foreground": "#8388aa"
-            }
-          }
-        ]
-      },
-
-      "customizeUI.stylesheet": {
-        ".decorationsOverviewRuler": "opacity: 0 !important;",
-        ".scroll-decoration": "opacity: 0 !important;",
-        ".editor-instance": "margin-top: 4rem !important;",
-        ".margin": "transform: translateX(-2rem) !important;",
-        ".tabs-and-actions-container": "display: none !important;",
-        ".title.show-file-icons": "display: none !important;",
-      },
-
-    // "editor.bracketPairColorization.enabled": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.selectionHighlight": false,
-    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-    "zenMode.fullScreen": false,
-    "zenMode.hideLineNumbers": false,
-    "workbench.editor.labelFormat": "short",
-    "files.associations": {
-      "*.pl": "prolog"
-    },
-    "workbench.iconTheme": "icons",
-    // "prolog.executablePath": "C:/Program Files/swipl/bin",
-    "workbench.activityBar.visible": false,
-    "symbols.hidesExplorerArrows": false,
-    "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "expand",
-    "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★★",
-    
-    /* NEW CONFIGURATIONS  */
-    "workbench.editor.showTabs": false,
-    "window.menuBarVisibility": "compact",
-    "window.restoreFullscreen": true,
-    "window.title": "${dirty}${separator}${activeEditorShort}${separator}${activeFolderShort}${separator}👽👾",
-    "window.titleSeparator": " - ",
-    "workbench.layoutControl.type": "menu",
-    "workbench.statusBar.visible": false,
-    "workbench.layoutControl.enabled": false,
-    "window.zoomLevel": 0.2,
-    // end of minimal styles
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "haskell.manageHLS": "GHCup",
+  "codesnap.containerPadding": "1.5em",
+  "workbench.startupEditor": "none",
+  // "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "Roboto Mono",
+  "editor.fontFamily": "Lilex",
+  "editor.fontLigatures": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontWeight": "100",
+  "glassit.alpha": 255,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "files.autoSave": "afterDelay",
+  "workbench.editorAssociations": {
+    "*.class": "default",
+    "*.xlsx": "gc-excelviewer-excel-editor"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "emmet.preferences": {},
+  "editor.renderControlCharacters": false,
+  "breadcrumbs.enabled": false,
+  "editor.fontSize": 13,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.tabSize": 2,
+  // Minimal styles
+  "editor.minimap.enabled": false, // removes minimap
+  "editor.renderWhitespace": "none", // removes whitespace chars
+  "editor.renderLineHighlight": "none", // removes line highlight
+  "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+  "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
+  "editor.folding": true, // removes the folding feature
+  "editor.glyphMargin": true, // removes the space used mainly for debugging indicators
+  "editor.lineNumbers": "off",
+  "editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
+  "editor.matchBrackets": "never", // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "workbench.editor.tabCloseButton": "off", // removes the status bar
+  "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+    "editorCursor.background": "#0d1117",
+    "editorCursor.foreground": "#b3c7ff",
+    "editorGroup.border": "#00000000",
+    "editorPane.background": "#0d1117",
+    "editorGroup.emptyBackground": "#0d1117",
+    "tab.activeBorder": "#ff000000", // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+    "tab.activeBorderTop": "#ff000000",
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "punctuation",
+        "settings": {
+          "foreground": "#8388aa"
+        }
+      }
+    ]
+  },
+  "customizeUI.stylesheet": {
+    ".decorationsOverviewRuler": "opacity: 0 !important;",
+    ".scroll-decoration": "opacity: 0 !important;",
+    ".editor-instance": "margin-top: 4rem !important;",
+    ".margin": "transform: translateX(-2rem) !important;",
+    ".tabs-and-actions-container": "display: none !important;",
+    ".title.show-file-icons": "display: none !important;",
+  },
+  // "editor.bracketPairColorization.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.selectionHighlight": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "workbench.editor.labelFormat": "short",
+  "files.associations": {
+    "*.pl": "prolog"
+  },
+  "workbench.iconTheme": "icons",
+  // "prolog.executablePath": "C:/Program Files/swipl/bin",
+  "workbench.activityBar.visible": false,
+  "symbols.hidesExplorerArrows": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★★",
+  /* NEW CONFIGURATIONS  */
+  "workbench.editor.showTabs": false,
+  "window.menuBarVisibility": "compact",
+  "window.restoreFullscreen": true,
+  "window.title": "${dirty}${separator}${activeEditorShort}${separator}${activeFolderShort}${separator}👽👾",
+  "window.titleSeparator": " - ",
+  "workbench.layoutControl.type": "menu",
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "window.zoomLevel": 0.2,
+  // end of minimal styles
 }
