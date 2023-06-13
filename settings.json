@@ -14,14 +14,17 @@
   "haskell.manageHLS": "GHCup",
   "codesnap.containerPadding": "1.5em",
   "workbench.startupEditor": "none",
+  
+  // --- FONTS ---
+  "editor.fontFamily": "Lilex",
   // "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
   // "editor.fontFamily": "Roboto Mono",
-  "editor.fontFamily": "Lilex",
+
   "editor.fontLigatures": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "tabnine.experimentalAutoImports": true,
   "editor.fontWeight": "100",
-  "glassit.alpha": 235,
+  "glassit.alpha": 230,
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
@@ -78,15 +81,6 @@
     ]
   },
 
-  "customizeUI.stylesheet": {
-    ".decorationsOverviewRuler": "opacity: 0 !important;",
-    ".scroll-decoration": "opacity: 0 !important;",
-    ".editor-instance": "margin-top: 4rem !important;",
-    ".margin": "transform: translateX(-2rem) !important;",
-    ".tabs-and-actions-container": "display: none !important;",
-    ".title.show-file-icons": "display: none !important;",
-  },
-
   // "editor.bracketPairColorization.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
@@ -106,7 +100,6 @@
 
   /* NEW CONFIGURATIONS  */
   "workbench.editor.showTabs": false,
-  "window.menuBarVisibility": "toggle",
   "window.restoreFullscreen": true,
   "window.title": "${dirty}${separator}${activeEditorShort}${separator}${activeFolderShort}${separator}👽👾",
   "window.titleSeparator": " - ",
@@ -114,8 +107,12 @@
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
   "window.zoomLevel": 0.2,
-  "workbench.activityBar.visible": false,
   "workbench.editor.enablePreview": false,
   "symbols.hidesExplorerArrows": false,
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/Manuel/Documents/custom.css"
+  ],
+  "workbench.activityBar.visible": false,
+  "window.menuBarVisibility": "toggle",
   // end of minimal styles
 }
